@@ -71,34 +71,30 @@ Addressing table
 
 
 
-Configurations Made
+# Configurations Made #
 
 
-Addressing with DHCP
+## Addressing with DHCP ##
+
+| Network | Device | Ipv4 (Static) | 
+|---------|--------|---------------|
+| Production | 192.168.2.2 | 255.255.255.0 |
+| Management | 192.168.0.2 | 255.255.255.224 |
+| Study | 192.168.1.2 | 255.255.255.0 |
+| Support | 172.16.0.2 | 255.255.0.0 |
+| serverPool | 192.168.4.0 | 255.255.255.248 |
 
 
-Pool Name
-Start IP Address
-Subnet Mask
-Production
-192.168.2.2
-255.255.255.0
-Management
-182.168.0.2
-255.255.255.224
-Study
-192.168.1.2
-255.255.255.0
-Support
-172.16.0.2
-255.255.0.0
-serverPool
-192.168.4.0
-255.255.255.248
-
-
-
-Virtual-LAN with Firewall
+# Virtual-LAN with Firewall #
 
 - Three vlans were setup to delineate the internal network from internet traffic and DMZ. The following priority levels were set:
 
+# Security measures with Firewall #
+
+- Security-level configuration to restrict untrusted access into the network;
+- AAA authentication to allow for secure remote network connection;
+- Implemented policy map to inspect internet-bound traffic (_icmp, tcp_) from the network;
+- Setup access list controls on the DMZ to internet traffic to web server on restricted ports;
+- Network address translation (NAT) which translates the internal IP addresses for internet access.
+
+You can find the .pka file in attach of this repository if you want to check in details all the configuration made during the project.
