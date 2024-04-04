@@ -97,4 +97,8 @@ Addressing table
 - Setup access list controls on the DMZ to internet traffic to web server on restricted ports;
 - Network address translation (NAT) which translates the internal IP addresses for internet access.
 
-You can find the .pka file in attach of this repository if you want to check in details all the configuration made during the project.
+You can find the .pkt file in attach of this repository if you want to check in details all the configuration made during the project.
+
+Name of the file: GROUP_PROJECT_FINAL.PKT
+
+Enjoy ! 
