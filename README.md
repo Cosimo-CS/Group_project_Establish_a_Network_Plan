@@ -6,7 +6,7 @@ Project made by group of 3 during our bootcamp
 
 # Project #
 
-A group of 3 members developed a secure network in cisco packet tracer
+A group of 3 members developed a secure network in cisco packet tracer.
 
 ## Team members ##
 
