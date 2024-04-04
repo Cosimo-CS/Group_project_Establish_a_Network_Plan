@@ -1,18 +1,18 @@
-# Group project "Establish a Network Plan"
+# Group project "Establish a Network Plan" #
 Project made by group of 3 during our bootcamp 
 
-Project type: Group 
-Project file: *pkt file link*
+- Project type: Group 
+- Project file: *pkt file link*
 
-Project:
+# Project #
 
 A group of 3 members developed a secure network in cisco packet tracer
 
-Team members
+## Team members ##
 
-Cosimo 
-Edjane 
-Bukunmi
+- Cosimo 
+- Edjane 
+- Bukunmi
 
 Project Aim:
 
