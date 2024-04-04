@@ -32,7 +32,7 @@ Requirements
     - Support (2 sectors, 10 workstations each) 
 
 
-Design 
+# Design #
 
 We developed 2 different network plans and compared their functionalities: one with routers, the other with switches.
 
@@ -47,7 +47,18 @@ Addressing table
 | Name | Network | Subnet | VLAN | 
 |------|---------|--------|------|
 | SERVER | 192.168.4.0 | 255.255.255.248 | 1 |
-
+| MANAGEMENT | 192.168.0.0 | 255.255.255.224 | 1 |
+| STUDY | 192.168.1.0 | 255.255.255.0 | 1 |
+| PRODUCT | 192.168.2.0 | 255.255.255.0 | 1 |
+| SUPPORT 1 | 172.16.0.0 | 255.255.255.0 | 1 |
+| SUPPORT 2 | 172.16.0.0 | 255.255.255.0 | 1 |
+| ASA / MANAGEMENT | 11.0.0.0 | 255.255.255.248 | 1 |
+| STUDY / PRODUCT | 12.0.0.0 | 255.255.255.248 | 1 |
+| PRODUCT / SUPPORT | 13.0.0.0 | 255.255.255.248 | 1 |
+| ISP / ASA | 14.0.0.0 | 255.255.255.248 | 2 |
+| ISP | 15.0.0.0 | 255.0.0.0 | 2 |
+| SERVER / ASA | 16.0.0.0 | 255.255.255.248 | 1 |
+| DMZ | 17.0.0.0 | 255.255.255.248 | 3 |
 
 
 
